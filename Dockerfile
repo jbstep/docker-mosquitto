@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine
-MAINTAINER kost, https://github.com/kost/docker-alpine
+MAINTAINER jbstep, https://github.com/jbstep/docker-alpine
 
 RUN apk add --update mosquitto mosquitto-clients && \
 mkdir /work && chown nobody /work
